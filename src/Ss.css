@@ -1,0 +1,155 @@
+.Cont {
+    height: 90vh;
+    overflow: hidden !important;
+    display: flex;
+    padding: 0 150px;
+    margin-bottom: 150px;
+    background-color: #3C3633;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Desclucy {
+    flex: 1;
+    padding-top: 50px !important;
+    margin: auto;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    height: 0vh;
+    padding: 20px; /* Added padding to the container */
+}
+
+.Desclucy h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 5px; /* Adjusted padding */
+    
+}
+
+.Desclucy p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px; /* Adjusted margin */
+    padding-bottom: 55px;
+}
+
+.Desclucy h5 {
+    font-family: "Dancing Script";
+    font-weight: 400;
+    font-style: bold;
+    font-size: 30px;
+    margin-top: 5px; /* Adjusted margin */
+    color: white;
+}
+
+.Imglucy{
+    flex:1 !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+
+}
+
+.Imglucy img{
+    flex:1;
+    width: 200px;
+    height: 450px;
+
+}
+.fa-solid {
+    font-size: 24px; /* Change this value to your desired size */
+    color: white;
+  }
+
+.personal{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    
+}
+.envelope{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+
+.pilot{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+
+/* Small screens */
+@media screen and (max-width: 576px) {
+    .Cont {
+        padding: 80px 30px;
+        display: flex;
+      
+        flex-direction: column;
+      
+        height: 140vh;
+    }
+
+    .Imglucy {
+        width: 90%;
+        justify-content: center;
+        }
+
+  
+}
+
+/* Medium screens */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .Cont {
+        padding: 80px 30px;
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+
+    .Imglucy {
+        width: 80%;
+        }
+}
+
+
+
+
+/* Large screens */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .Cont {
+        padding: 0 50px;
+    }
+}
+
+/* Extra large screens */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .Cont {
+        padding: 0 80px;
+    }
+}
+
+/* Extra-extra large screens */
+@media screen and (min-width: 1201px) {
+    .Cont {
+        padding: 0 150px;
+    }
+}
+

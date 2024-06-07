@@ -1,0 +1,108 @@
+.Gallery{
+    width: 100%;
+    height: 600px;
+    background-color:#3C3633;
+    display: flex;
+    justify-content: center;
+}
+.secgallery{
+    background-color:  #747264;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+}
+.trophy{
+    margin-top: 50px;
+}
+.trophy .fa-trophy{
+    font-size: 50px;
+    color: #FFD43B;
+}
+.secgallery h1{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+
+}
+.secgallery p{
+    color: white;
+    font-weight: 600;
+    padding-bottom:160px ;
+}
+.secgallery a{
+    font-weight: 800;
+}
+
+
+.cars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: #747264;
+    width: 100%;
+    height: 100rem;
+;
+}
+.car{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 80%;
+    height: 100px;
+    gap: 50px;
+    margin-right: 150px;
+    margin-top: 150px;
+
+}
+.car img{
+    width: 40rem;
+    height: 25rem;
+    display: flex;
+    cursor: pointer;
+} 
+  .enlarged-image {
+    width: 70vw; /* 70% of the viewport width */
+    height: 70vh; /* 70% of the viewport height */
+    object-fit: contain; /* Maintain aspect ratio while fitting the container */
+    cursor: pointer;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 576px) {
+    .cars{
+        width: 100%;
+        height: 50rem;
+        }
+        .car{
+           margin-left: 5rem;
+        }
+    .car img{
+        width: 180px;
+        height: 150px;
+    }
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 768px){
+        .cars{
+            width: 100%;
+            height: 50rem;
+            }
+            .car{
+               margin-left: 5rem;
+            }
+        .car img{
+            width: 240px;
+            height: 150px;
+        }
+    }
