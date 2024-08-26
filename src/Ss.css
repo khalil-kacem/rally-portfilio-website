@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 10rem;
 }
 
 .Desclucy {
@@ -19,7 +20,7 @@
     justify-content: center;
     margin-right: 10px;
     height: 0vh;
-    padding: 20px; /* Added padding to the container */
+    padding: 20px; 
 }
 
 .Desclucy h1 {
@@ -28,7 +29,7 @@
     font-weight: 600;
     margin-bottom: 15px;
     font-family: "Roboto Condensed", sans-serif;
-    padding-top: 5px; /* Adjusted padding */
+    padding-top: 5px; 
     
 }
 
@@ -36,7 +37,7 @@
     color: white;
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 5px; /* Adjusted margin */
+    margin-bottom: 5px; 
     padding-bottom: 55px;
 }
 
@@ -45,7 +46,7 @@
     font-weight: 400;
     font-style: bold;
     font-size: 30px;
-    margin-top: 5px; /* Adjusted margin */
+    margin-top: 5px;
     color: white;
 }
 
@@ -65,7 +66,7 @@
 
 }
 .fa-solid {
-    font-size: 24px; /* Change this value to your desired size */
+    font-size: 24px; 
     color: white;
   }
 
@@ -96,7 +97,6 @@ h6{
     font-size: 15px;
 }
 
-/* Small screens */
 @media screen and (max-width: 576px) {
     .Cont {
         padding: 80px 30px;
@@ -115,7 +115,6 @@ h6{
   
 }
 
-/* Medium screens */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .Cont {
         padding: 80px 30px;
@@ -132,21 +131,18 @@ h6{
 
 
 
-/* Large screens */
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .Cont {
         padding: 0 50px;
     }
 }
 
-/* Extra large screens */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     .Cont {
         padding: 0 80px;
     }
 }
 
-/* Extra-extra large screens */
 @media screen and (min-width: 1201px) {
     .Cont {
         padding: 0 150px;

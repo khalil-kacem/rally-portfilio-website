@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links img {
+    width: 30px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Adjust spacing */
+  }
+  
+  .social-links img:hover {
+    opacity: 0.8; /* Add hover effect */
+  }
+  
+  .copyright {
+    margin-top: 20px;
+  }
+  

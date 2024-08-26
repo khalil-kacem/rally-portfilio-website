@@ -16,7 +16,7 @@ const Ss= () => {
             <div className='envelope'>       
                 <i class="fa-solid fa-envelope"></i>
                 <h1>Email </h1>
-                <h6>Hello@yourdomain.com</h6>
+                <h6></h6>
             </div>
         </div>
         </div>

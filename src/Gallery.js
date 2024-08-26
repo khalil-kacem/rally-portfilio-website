@@ -33,7 +33,7 @@ const Gallery = () => {
             </div>
            
            
-        </div>
+      </div>
         <div className='cars'>
         <div className='car'>
         {carrs.map((carr) => (
